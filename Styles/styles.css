@@ -6,7 +6,7 @@
 .Nav-and-Banner-background{
     background: rgba(255, 144, 14, 0.1);
     width: 100%;
-    height: 30%;
+    height: 100%;
     left: 0px;
     top: 0px;
 }
@@ -88,50 +88,163 @@ a{
 
 /* Team and Feature Section */
 
-.feature-section
-{
+
+.features-background{
     background-color: #FFFFFF;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 73px;
 }
 
-.team-section-img
-{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+.features{
     margin-top: 85px;
     margin-left: 301px;
-   
+    margin-right: 301px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.team-section-img img{
-    width: 342px;
-    height: 342px;
-    border-radius: 8px;
-}
-.feature-section-explore
-{
+.team-img{
     display: grid;
-    grid-template-rows: repeat(1, 1fr);
-    gap: 25;
-    margin-top: 85px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    margin-right: 73px;
 }
-.header-feature{
-    ont-style: normal;
+
+.team-img img{
+    height: 342px;
+    width: 342px;
+}
+
+.feature{
+    margin-top: 200px;
+}
+
+.head-01{
+    font-style: normal;
     font-weight: 500;
     font-size: 45px;
     line-height: 53px;
     color: #727272;
+
 }
 
-.txt-feature{
+.head-02{
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    
+}
+
+.head-03{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FF900E;
+
+
+}
+
+.feature-paragraph{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #727272;
 }
+
+/* Female Architecture and More Features */
+
+.more-features{
+    margin-top: 130px;
+    margin-left: 301px;
+    margin-right: 301px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.discription-more-features{
+    margin-top: 40px;
+}
+
+
+
+.sub-des{
+    font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 40px;
+/* or 160% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.discription-more{
+
+    display: flexbox;
+    margin-right: 54px;
+
+}
+
+.description-box{
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-top: 25px;
+    border-radius: 5%;
+    
+}
+
+.dm-head{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    padding: 30px 301px 10px 33px;
+
+}
+
+.dm-discription{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-left: 30px;
+    padding-right: 42px;
+    padding-bottom: 30px;
+
+}
+.Style-Box{
+    padding: 30px;
+}
+
+.more-feature-img
+{
+    margin-left: 92px;
+}
+
+.button-primary-1{
+    border: 0px;
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    /* or 108% */
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
 
 
